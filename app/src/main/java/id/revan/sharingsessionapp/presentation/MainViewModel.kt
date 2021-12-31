@@ -5,8 +5,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import id.revan.sharingsessionapp.external.DataState
-import id.revan.sharingsessionapp.data.entities.Banner
-import id.revan.sharingsessionapp.data.entities.NewsCategory
+import id.revan.sharingsessionapp.data.entity.Banner
+import id.revan.sharingsessionapp.data.entity.NewsCategory
 import id.revan.sharingsessionapp.domain.usecase.MainUseCase
 import id.revan.sharingsessionapp.presentation.MainIntent.FetchBanner
 import id.revan.sharingsessionapp.presentation.MainIntent.FetchNewsCategory

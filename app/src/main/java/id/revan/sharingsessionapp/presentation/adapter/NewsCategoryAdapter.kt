@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import id.revan.sharingsessionapp.R
-import id.revan.sharingsessionapp.data.entities.NewsCategory
+import id.revan.sharingsessionapp.data.entity.NewsCategory
 import id.revan.sharingsessionapp.presentation.adapter.NewsCategoryAdapter.ViewHolder
 
 class NewsCategoryAdapter(private val newsCategories: List<NewsCategory>) : RecyclerView.Adapter<ViewHolder>() {

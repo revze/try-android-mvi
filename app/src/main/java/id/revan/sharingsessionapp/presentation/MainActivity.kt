@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import id.revan.sharingsessionapp.R
 import id.revan.sharingsessionapp.R.layout
-import id.revan.sharingsessionapp.data.entities.Banner
-import id.revan.sharingsessionapp.data.entities.NewsCategory
+import id.revan.sharingsessionapp.data.entity.Banner
+import id.revan.sharingsessionapp.data.entity.NewsCategory
 import id.revan.sharingsessionapp.di.Injector
 import id.revan.sharingsessionapp.di.ViewModelFactory
 import id.revan.sharingsessionapp.external.DataState.Error

@@ -1,8 +1,8 @@
 package id.revan.sharingsessionapp.data.repository
 
 import id.revan.sharingsessionapp.data.datasource.RemoteDataSource
-import id.revan.sharingsessionapp.data.entities.Banner
-import id.revan.sharingsessionapp.data.entities.NewsCategory
+import id.revan.sharingsessionapp.data.entity.Banner
+import id.revan.sharingsessionapp.data.entity.NewsCategory
 import id.revan.sharingsessionapp.domain.repository.MainRepository
 import id.revan.sharingsessionapp.external.DataState
 import java.io.IOException

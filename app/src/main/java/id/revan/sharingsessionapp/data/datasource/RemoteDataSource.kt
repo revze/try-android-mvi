@@ -1,8 +1,8 @@
 package id.revan.sharingsessionapp.data.datasource
 
 import id.revan.sharingsessionapp.external.DataState
-import id.revan.sharingsessionapp.data.entities.Banner
-import id.revan.sharingsessionapp.data.entities.NewsCategory
+import id.revan.sharingsessionapp.data.entity.Banner
+import id.revan.sharingsessionapp.data.entity.NewsCategory
 
 interface RemoteDataSource {
 

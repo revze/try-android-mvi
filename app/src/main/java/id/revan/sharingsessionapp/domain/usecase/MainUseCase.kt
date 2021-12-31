@@ -1,8 +1,8 @@
 package id.revan.sharingsessionapp.domain.usecase
 
 import id.revan.sharingsessionapp.external.DataState
-import id.revan.sharingsessionapp.data.entities.Banner
-import id.revan.sharingsessionapp.data.entities.NewsCategory
+import id.revan.sharingsessionapp.data.entity.Banner
+import id.revan.sharingsessionapp.data.entity.NewsCategory
 import kotlinx.coroutines.flow.Flow
 
 interface MainUseCase {

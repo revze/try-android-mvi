@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import id.revan.sharingsessionapp.R
-import id.revan.sharingsessionapp.data.entities.Banner
+import id.revan.sharingsessionapp.data.entity.Banner
 import id.revan.sharingsessionapp.presentation.adapter.BannerAdapter.ViewHolder
 
 class BannerAdapter(private val banners: List<Banner>) : RecyclerView.Adapter<ViewHolder>() {

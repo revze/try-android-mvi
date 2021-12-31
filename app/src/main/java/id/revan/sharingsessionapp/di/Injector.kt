@@ -10,20 +10,17 @@ import id.revan.sharingsessionapp.domain.usecase.MainUseCase
 import id.revan.sharingsessionapp.domain.usecase.MainUseCaseImpl
 import id.revan.sharingsessionapp.external.AppCoroutineDispatcherProvider
 import id.revan.sharingsessionapp.external.CoroutineDispatcherProvider
-import id.revan.sharingsessionapp.presentation.MainViewModel
 
 object Injector {
 
-    fun provideApiService(): ApiService = RetrofitBuilder.apiService
+    private fun provideApiService(): ApiService = RetrofitBuilder.apiService
 
-    fun provideCoroutineDispatcherProvider(): CoroutineDispatcherProvider = AppCoroutineDispatcherProvider()
+    private fun provideCoroutineDispatcherProvider(): CoroutineDispatcherProvider = AppCoroutineDispatcherProvider()
 
-    fun provideRemoteDataSource(): RemoteDataSource =
+    private fun provideRemoteDataSource(): RemoteDataSource =
         RemoteDataSourceImpl(provideApiService(), provideCoroutineDispatcherProvider())
 
-    fun provideMainRepository(): MainRepository = MainRepositoryImpl(provideRemoteDataSource())
+    private fun provideMainRepository(): MainRepository = MainRepositoryImpl(provideRemoteDataSource())
 
     fun provideMainUseCase(): MainUseCase = MainUseCaseImpl(provideMainRepository())
-
-    fun provideMainViewModel(): MainViewModel = MainViewModel(provideMainUseCase())
 }

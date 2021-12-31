@@ -1,7 +1,7 @@
 package id.revan.sharingsessionapp.data.network
 
-import id.revan.sharingsessionapp.data.entities.BannerRes
-import id.revan.sharingsessionapp.data.entities.NewsCategoryRes
+import id.revan.sharingsessionapp.data.entity.BannerRes
+import id.revan.sharingsessionapp.data.entity.NewsCategoryRes
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

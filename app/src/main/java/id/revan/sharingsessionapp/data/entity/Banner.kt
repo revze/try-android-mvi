@@ -1,4 +1,4 @@
-package id.revan.sharingsessionapp.data.entities
+package id.revan.sharingsessionapp.data.entity
 
 import com.squareup.moshi.Json
 

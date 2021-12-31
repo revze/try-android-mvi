@@ -1,7 +1,7 @@
 package id.revan.sharingsessionapp.data.datasource
 
-import id.revan.sharingsessionapp.data.entities.Banner
-import id.revan.sharingsessionapp.data.entities.NewsCategory
+import id.revan.sharingsessionapp.data.entity.Banner
+import id.revan.sharingsessionapp.data.entity.NewsCategory
 import id.revan.sharingsessionapp.data.network.ApiService
 import id.revan.sharingsessionapp.external.CoroutineDispatcherProvider
 import id.revan.sharingsessionapp.external.DataState
